@@ -8,9 +8,9 @@ from helper import DataAnalysis, GeoAnalysis
 
 sns.set(style='dark')
 
-all_data = pd.read_csv('../data/new_all_data.csv')
-geo_cust_data = pd.read_csv('../data/geo_cust_data.csv')
-geo_sell_data = pd.read_csv('../data/geo_sell_data.csv')
+all_data = pd.read_csv('./data/new_all_data.csv')
+geo_cust_data = pd.read_csv('./data/geo_cust_data.csv')
+geo_sell_data = pd.read_csv('./data/geo_sell_data.csv')
 all_data.sort_values('order_purchase_timestamp', inplace=True)
 datetime_column = ['order_purchase_timestamp', 'order_approved_at', 'order_delivered_carrier_date', 
                    'order_delivered_customer_date', 'order_estimated_delivery_date']
@@ -24,7 +24,7 @@ min_date = all_data['order_purchase_timestamp'].min()
 max_date = all_data['order_purchase_timestamp'].max()
 
 with st.sidebar:
-    st.image('../data/logo.png')
+    st.image('./data/logo.png')
 
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,

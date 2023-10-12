@@ -110,7 +110,7 @@ class GeoAnalysis:
         gcdf = gpd.GeoDataFrame(
             self.cust_df, geometry=gpd.points_from_xy(self.cust_df.geolocation_lng, self.cust_df.geolocation_lat), crs="EPSG:4326"
         )
-        street_map = gpd.read_file('../data/ne_10m_admin_0_countries.shp')
+        street_map = gpd.read_file('./data/ne_10m_admin_0_countries.shp')
         fig, ax = plt.subplots(figsize=(35, 35))
         street_map.plot(ax=ax)
         ax.axis('off')
@@ -123,7 +123,7 @@ class GeoAnalysis:
         gsdf = gpd.GeoDataFrame(
             self.sell_df, geometry=gpd.points_from_xy(self.sell_df.geolocation_lng, self.sell_df.geolocation_lat), crs="EPSG:4326"
         )
-        street_map = gpd.read_file('../data/ne_10m_admin_0_countries.shp')
+        street_map = gpd.read_file('./data/ne_10m_admin_0_countries.shp')
         fig, ax = plt.subplots(figsize=(35, 35))
         street_map.plot(ax=ax)
         plt.axis('off')
