@@ -2,7 +2,7 @@
 
 ## Project Data Analytics E-Commerce
 
-Proyek data analysis menggunakan E-Commerce Public dataset oleh Dicoding. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
+Proyek data analysis menggunakan E-Commerce Public dataset oleh Dicoding. Aplikasi dideploy melalui streamlit
 
 ## Deskripsi
 
@@ -36,4 +36,4 @@ Proyek ini dibuat dengan maksud untuk melakukan analisis terhadapa E-Commerce Pu
     cd data-analytic-app/streamlit/
     streamlit run main.py
     ```
-    Atau bisa dengan kunjungi website ini [Project Data Analytics](https://data-analytics-project.streamlit.app/)
+    Atau bisa dengan kunjungi website ini [E-Commerce Analytics](https://e-commerce-analytic.streamlit.app/)
