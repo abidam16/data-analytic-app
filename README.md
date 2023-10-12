@@ -1,1 +1,39 @@
-# data-analytic-app
+# Submission Dicoding "Belajar Data Analytics dengan Python"
+
+## Project Data Analytics E-Commerce
+
+Proyek data analysis menggunakan E-Commerce Public dataset oleh Dicoding. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
+
+## Deskripsi
+
+Proyek ini dibuat dengan maksud untuk melakukan analisis terhadapa E-Commerce Public dataset. Hasil dari analisis akan menghasilkan informasi atau wawasan yang bisa digunakan untuk perusahaan yang memiliki data dalam menerapkan keputusan atau kebijakan yang tepat untuk meningkatkan keuntungan.
+
+## Struktur Direktori
+
+- **/data**: Direktori ini berisi data yang digunakan dalam proyek, seperti data yang disimpan dalam format .csv, gambar logo, dan gambar map .
+- **/streamlit**: Direktori ini berisi file-file yang digunakan untuk membangun dashboard web app berbasis streamlit.
+- **Proyek_Analisis_Data.ipynb**: Notebook yang digunakan untuk melakukan seluruh proses analisis data.
+
+## Instalasi
+
+1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+
+   ```shell
+   git clone https://github.com/Hanifanta/Project-data-analytics.git
+   ```
+
+2. Pastikan Anda memiliki Python environment yang sesuai dan library yang dibutuhkan untuk menjalankan aplikasi. Anda bisa menjalankan perintah berikut untuk menginstall library yang dibutuhkan:
+
+    ```shell
+    pip install streamlit
+    pip install -r requirements.txt
+    ```
+
+## Penggunaan
+1. Masuk ke direktori proyek (Local) dan jalankan perintah berikut:
+
+    ```shell
+    cd Project-data-analytics/streamlit/
+    streamlit run main.py
+    ```
+    Atau bisa dengan kunjungi website ini [Project Data Analytics](https://data-analytics-project.streamlit.app/)
