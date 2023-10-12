@@ -12,7 +12,7 @@ Proyek ini dibuat dengan maksud untuk melakukan analisis terhadapa E-Commerce Pu
 
 - **/data**: Direktori ini berisi data yang digunakan dalam proyek, seperti data yang disimpan dalam format .csv, gambar logo, dan gambar map .
 - **/streamlit**: Direktori ini berisi file-file yang digunakan untuk membangun dashboard web app berbasis streamlit.
-- **Proyek_Analisis_Data.ipynb**: Notebook yang digunakan untuk melakukan seluruh proses analisis data.
+- **analytic_notebook.ipynb**: Notebook yang digunakan untuk melakukan seluruh proses analisis data.
 
 ## Instalasi
 
@@ -33,7 +33,7 @@ Proyek ini dibuat dengan maksud untuk melakukan analisis terhadapa E-Commerce Pu
 1. Masuk ke direktori proyek (Local) dan jalankan perintah berikut:
 
     ```shell
-    cd Project-data-analytics/streamlit/
+    cd data-analytic-app/streamlit/
     streamlit run main.py
     ```
     Atau bisa dengan kunjungi website ini [Project Data Analytics](https://data-analytics-project.streamlit.app/)
